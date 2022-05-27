@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #a9d4ca;
+  background-color: #a9d2d4;
   font-family: 'Franklin Gothic Medium' ;
 }
 
@@ -44,4 +44,37 @@ a:hover{
 a:active{
   background-color: #0e3255; 
   color: white;
+}
+
+.con{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btnSum{
+  color: black;
+  border: solid 2px #ffffff;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.btnRes{
+  color: black;
+  border: solid 2px #ffffff;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.btnSub{
+  color: black;
+  border: solid 2px #ffffff;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
 }
