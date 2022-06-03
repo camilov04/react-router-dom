@@ -11,6 +11,7 @@ export const NavigatorUI = () => {
         <Link to="/contactUS">ContactUS</Link>
         <Link to="/contador">Contador</Link>
         <Link to="/modoDark">Modo Dark</Link>
+        <Link to="/gif">Gif</Link>
     </nav>
   )
 }

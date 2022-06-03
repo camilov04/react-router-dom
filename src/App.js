@@ -6,6 +6,8 @@ import { Route, Routes } from 'react-router-dom';
 import { NotFound } from './components/Pages/NotFound/NotFound';
 import { Header } from './components/Layout/Header/Header';
 import { ModoDark } from './components/Pages/ModoDark/ModoDark';
+import { Gif } from './components/Pages/Gif/Gif'
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path='/contactUS' element={<ContactUS />} />
         <Route path='/contador' element={<Contador />} />
         <Route path='/modoDark' element={<ModoDark />} />
+        <Route path='/gif' element={<Gif/>} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       
